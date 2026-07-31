@@ -1,2 +1,2 @@
 # mini_project
-Guess the target no. game
+generate a random password

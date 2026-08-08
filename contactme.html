@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+</head>
+<body>
+    <header>
+        <h1>LET'S CONNECT</h1>
+        <p>Have a question, job opportunity, or project idea? Feel free to reach out!</p>
+        <hr>
+    </header>
+    <main>
+       <form action="/action.php">
+        <P><b>1. Full Name</b></P>
+        <input type="text" placeholder="enter your full name">
+        <P><b>2. Email Address</b></P>
+        <input type="text" placeholder="enter your email">
+        <P><b>3. Phone Number</b></P>
+        <input type="text" placeholder="enter your phone no">
+        <P><b>4. what are you contacting me about?</b></P>
+        <select name="topics">
+            <option value="Job Opportunities">Job Opportunities</option>
+            <option value="Project Collaboration">Project Collaboration</option>
+            <option value="Freelance Work">Freelance Work</option>
+            <option value="Others">Others</option>
+            </select>
+            <P><b>5. Preferred Contact Method</b></P>
+            <label for="101">
+                <input type="radio" value="Email" name="contact" id="101">Email
+            </label>
+            <br>
+             <label for="102">
+                <input type="radio" value="Phone" name="contact" id="102">Phone
+            </label>
+            <P><b>6. Areas You're Interested in</b></P>
+             <label for="Python">
+                <input type="checkbox" value="PYthon" name="area" id="101">Python
+            </label>
+            <br>
+             <label for="SQL">
+                <input type="checkbox" value="SQL" name="area" id="102">SQL
+            </label>
+            <br>
+             <label for="Web development">
+                <input type="checkbox" value="Web development" name="area" id="103">Web Development
+            </label>
+            <br>
+             <label for="Data Analytics">
+                <input type="checkbox" value="Data Analytics" name="area" id="104">Data Analytics
+            </label>
+            <P><b>7. Your Message</b></P>
+            <textarea name="message" id="101" placeholder="write your message here....." rows="6" cols="30"></textarea>
+             <P><b>8. Would you like me to contact you back?</b></P>
+             <label for="101">
+                <input type="radio" value="yes" name="contact" id="101">Yes
+            </label>
+            <br>
+             <label for="102">
+                <input type="radio" value="No" name="contact" id="102">No
+            <br>
+            <br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">    
+
+       </form>
+    </main>
+</body>
+</html>
